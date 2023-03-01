@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+    <import type="android.view.View" />
+
+    <variable
+        name="homeViewModel"
+        type="com.fictivestudios.basinboatlighting.ui.home.home.HomeFragmentViewModel" />
+    </data>
+
+<!--    <ScrollView-->
+<!--        android:fillViewport="true"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--   -->
+<!--    android:layout_marginBottom="@dimen/_160sdp"-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/bg_img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/relhome"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    >
+
+    <ImageView
+        android:id="@+id/weather"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+
+        android:src="@drawable/small_wheather_logo"></ImageView>
+
+    <ImageView
+        android:id="@+id/homelogo"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:src="@drawable/small_logo"></ImageView>
+
+    <ImageView
+        android:id="@+id/ivHelp"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+
+        android:src="@drawable/help" />
+
+
+
+</RelativeLayout>
+
+        <ImageView
+            android:id="@+id/sosred"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@id/relhome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/homecardrecyle"
+            android:src="@drawable/sos_rd"
+            android:visibility="gone"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <ImageView
+            android:id="@+id/sos"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@id/relhome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/homecardrecyle"
+            android:src="@drawable/sosfull"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+        <ImageView
+            android:id="@+id/sbt"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_35sdp"
+            app:layout_constraintTop_toBottomOf="@id/relhome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/homecardrecyle"
+            android:src="@drawable/bluetooth"
+            android:layout_marginStart="@dimen/_10sdp"
+
+            android:layout_marginEnd="@dimen/_10sdp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homecardrecyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@id/sos"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingBottom="@dimen/_90sdp"
+           />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+<!--    </ScrollView>-->
+
+
+</layout>

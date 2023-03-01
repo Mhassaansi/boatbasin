@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/drawable/bottom_nav.xml" value="0.1925" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/drawable/button_bg.xml" value="0.1925" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/drawable/edittext_bg.xml" value="0.1925" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/drawable/line.xml" value="0.1925" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/drawable/settingcard.xml" value="0.1925" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/abouts.xml" value="0.22" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/aboutus.xml" value="1.1511627906976745" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/bluethooth_card.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/connectbluethooth.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/editprofile.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/exit_dialog.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/forgetpassword.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/home.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/homecard.xml" value="0.33" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/otpverification.xml" value="0.25" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/privacypolicy.xml" value="0.2" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/profile.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/progressloader.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/resetpassword.xml" value="0.22" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/settingcardview.xml" value="0.19364303178484107" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/settings.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/signup.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/termscondition.xml" value="0.22" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/titlebar.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/layout/updatepassword.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BasinBoatLighting/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/drawable/visibility.xml" value="0.2135" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/abouts.xml" value="0.14375" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/activity_base.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/bluethooth_card.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/connectbluethooth.xml" value="0.12" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/editprofile.xml" value="0.33" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/exit_dialog.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/forgetpassword.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/home.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/homecard.xml" value="0.33" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/imagecard.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/imagepicker.xml" value="0.21145833333333333" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/login.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/otpverification.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/privacypolicy.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/profile.xml" value="0.33" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/resetpassword.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/settings.xml" value="0.25" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/signup.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/sosdialog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/termscondition.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/updatepassword.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/uploadcard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/weathercard.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/weatherinfo.xml" value="0.3254493850520341" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/BoatBasinLighting1/app/src/main/res/layout/wwather.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/boatbasin/app/src/main/res/layout/abouts.xml" value="0.30842391304347827" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/boatbasin/app/src/main/res/layout/editprofile.xml" value="0.30842391304347827" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/boatbasin/app/src/main/res/layout/home.xml" value="0.30842391304347827" />
+        <entry key="..\:/Users/muhammad.hassan/AndroidStudioProjects/boatbasin/app/src/main/res/layout/profile.xml" value="0.30842391304347827" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/drawable/homecardbackground.xml" value="0.2495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/drawable/settingcard.xml" value="0.2495" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/abouts.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/activity_home.xml" value="0.14" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/editprofile.xml" value="0.17604166666666668" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/forgetpassword.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/home.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/homecard.xml" value="0.3546875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/login.xml" value="0.18" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/otpverification.xml" value="0.14" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/profile.xml" value="0.3546875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/settings.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/signup.xml" value="0.3546875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/titlebar.xml" value="0.3546875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/basinboatlighiting/app/src/main/res/layout/updatepassword.xml" value="0.13697916666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data class="HomeactivityBinbing" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.HomeActivity">
+
+        <com.fictivestudios.basinboatlighting.utils.Titlebar
+            android:id="@+id/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <fragment
+            android:id="@+id/nav_home_fragment"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/rlbottombar"
+            android:layout_below="@+id/titlebar"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-80dp"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_module" />
+
+        <RelativeLayout
+android:visibility="visible"
+            android:id="@+id/rlbottombar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:background="@drawable/navbar">
+
+            <ImageView
+                android:id="@+id/profleid"
+                android:layout_width="20dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:src="@drawable/user" />
+
+
+            <ImageView
+                android:id="@+id/settingsid"
+                android:layout_width="20dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:src="@drawable/settings" />
+        </RelativeLayout>
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/homeid"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_alignTop="@id/rlbottombar"
+            android:layout_centerHorizontal="true"
+          android:layout_marginTop="-25dp"
+            android:src="@drawable/nav_home"></ImageView>
+
+    </RelativeLayout>
+
+</layout>

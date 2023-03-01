@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_registration"
+    app:startDestination="@id/loginScreen">
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.login.LoginScreen"
+        android:label="LoginScreen" >
+        <action
+            android:id="@+id/action_loginScreen_to_signupScreen"
+            app:destination="@id/signupScreen" />
+        <action
+            android:id="@+id/action_loginScreen_to_forgetPassword"
+            app:destination="@id/forgetPassword" />
+        <action
+            android:id="@+id/action_loginScreen_to_otpVerification"
+            app:destination="@id/otpVerification" />
+    </fragment>
+    <fragment
+        android:id="@+id/otpVerification"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.optveification.OtpVerification"
+        android:label="OtpVerification" >
+        <argument
+            android:name="forget"
+            app:argType="string"
+            android:defaultValue="forgot"
+            />
+        <argument
+            android:name="averification"
+            app:argType="string"
+            android:defaultValue="ACCOUNT_VERIFICATION"
+            />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="email@fictie.com"
+            />
+
+        <action
+            android:id="@+id/action_otpVerification_to_resetPassword"
+            app:destination="@id/resetPassword" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupScreen"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.signup.SignupScreen"
+        android:label="SignupScreen" >
+
+        <action
+            android:id="@+id/action_signupScreen_to_otpVerification"
+            app:destination="@id/otpVerification" />
+        <action
+            android:id="@+id/action_signupScreen_to_termsCondition2"
+            app:destination="@id/termsCondition2" />
+        <action
+            android:id="@+id/action_signupScreen_to_privacyPolicy2"
+            app:destination="@id/privacyPolicy2" />
+        <action
+            android:id="@+id/action_signupScreen_to_privacyPolicyTest"
+            app:destination="@id/privacyPolicyTest" />
+        <action
+            android:id="@+id/action_signupScreen_to_termsCondition22"
+            app:destination="@id/termsCondition2" />
+        <action
+            android:id="@+id/action_signupScreen_to_termsandConditionTest"
+            app:destination="@id/termsandConditionTest" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicy2"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.privacypolicy.PrivacyPolicy"
+        android:label="PrivacyPolicy" />
+    <fragment
+        android:id="@+id/termsCondition2"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.termscondition.TermsCondition"
+        android:label="TermsCondition" />
+    <fragment
+        android:id="@+id/resetPassword"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.resetpassword.ResetPassword"
+        android:label="ResetPassword" >
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="email@fictie.com"
+            />
+        <action
+            android:id="@+id/action_resetPassword_to_loginScreen"
+            app:destination="@id/loginScreen" />
+
+    </fragment>
+    <dialog
+        android:id="@+id/exitDialog2"
+        android:name="com.fictivestudios.basinboatlighting.ui.dialogs.ExitDialog"
+        android:label="ExitDialog" />
+    <fragment
+        android:id="@+id/forgetPassword"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.forgetPassword.ForgetPassword"
+        android:label="ForgetPassword" >
+        <action
+            android:id="@+id/action_forgetPassword_to_otpVerification"
+            app:destination="@id/otpVerification" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyPolicyTest"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.privacy.PrivacyPolicyTest"
+        android:label="PrivacyPolicyTest" />
+    <fragment
+        android:id="@+id/termsandConditionTest"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.terms.TermsandConditionTest"
+        android:label="TermsandConditionTest" />
+</navigation>

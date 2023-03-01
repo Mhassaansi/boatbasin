@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class="Titlebarbinding" />
+
+    <RelativeLayout
+        android:id="@+id/rlTitlebarMainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:gravity="center_vertical"
+        android:background="@color/app_blue"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/Back_circle"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/_1sdp"
+            android:src="@drawable/back" />
+
+
+        <ImageView
+            android:id="@+id/tvTitle"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/small_logo"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTitletext"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_centerInParent="true"
+            android:text="Title"
+            android:visibility="gone"
+            android:padding="@dimen/_15sdp"
+            android:src="@drawable/small_logo"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/ivHelp"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:padding="@dimen/_1sdp"
+            android:src="@drawable/back_button" />
+
+        <ImageView
+            android:id="@+id/questions"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_alignStart="@+id/ivHelp"
+            android:layout_alignTop="@+id/ivHelp"
+            android:layout_alignEnd="@+id/ivHelp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="@dimen/_1sdp"
+            android:src="@drawable/question"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</layout>

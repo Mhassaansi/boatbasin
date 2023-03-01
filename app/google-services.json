@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "525785796470",
+    "project_id": "basin-boat-lighting-ea352",
+    "storage_bucket": "basin-boat-lighting-ea352.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525785796470:android:710bbc3ecca303b7127457",
+        "android_client_info": {
+          "package_name": "com.fictivestudios.basinboatlighting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525785796470-6g6a2odbashh17ugqbv52o2l0fctktje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fictivestudios.basinboatlighting",
+            "certificate_hash": "71c92935a0f7e9c49f8e501f45da5230d30734c5"
+          }
+        },
+        {
+          "client_id": "525785796470-fjrabp9ct6n5jvfm5vrgcgejro943lga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB87eF0TTPXdWxcKjxJGq6JswnG-rArxWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525785796470-fjrabp9ct6n5jvfm5vrgcgejro943lga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Basin Boat Lighting</string>
+
+    <string name="login">Login</string>
+    <string name="loginButtonText">LOGIN NOW!</string>
+    <string name="forgetpassword">Forget Password</string>
+    <string name="donthaveaccount">Don\'t have an account?Signup Now!</string>
+    <string name="emailhint">Email Address</string>
+    <string name="passwordhint">Password</string>
+    <string name="signupText">Signup</string>
+    <string name="Continue">Continue</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="cpassword">Confirm Password</string>
+    <string name="aceeptTerms">I have read Accepted Terms &amp; Conditions And Privacy Policy</string>
+    <string name="getcode">Get Code</string>
+    <string name="enetrotpverification">Enter OTP Verification</string>
+    <string name="dontrecive">Don\'t recevie code? Resend</string>
+    <string name="resetforget">Reset Password</string>
+    <string name="updatepassword">Update Password</string>
+    <string name="oldpassword">Old Password</string>
+    <string name="redirectwebsite">Basin Website</string>
+    <string name="pnotification">Receive Push Notification</string>
+    <string name="loc">Location</string>
+    <string name="cpass">Change Password</string>
+    <string name="termscondition">TERMS &amp; CONDITIONS</string>
+    <string name="yearlysubs">YEARLY SUBSCRIPTION</string>
+    <string name="terms">Terms of Conditions</string>
+    <string name="ppolicy">PRIVACY POLICY</string>
+    <string name="policy">Privacy Policy</string>
+    <string name="lbirdnamin">BrightBird Main LED</string>
+    <string name="flashbird">FlashBird Flasher</string>
+    <string name="navbird">NavBird Nav Light</string>
+    <string name="lbirdhorn">LoudBird Horn</string>
+    <string name="signout">Signout</string>
+    <string name="internetconnection">No Internet Connection</string>
+    <string name="edit">Edit</string>
+    <string name="settings">SETTING</string>
+    <string name="aboutus">ABOUT US</string>
+    <string name="sosq">Are you sure you want to trigger the SOS?</string>
+</resources>

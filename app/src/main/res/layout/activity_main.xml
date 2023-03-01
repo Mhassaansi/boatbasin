@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data
+        class="RegisterBinding">
+    </data>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.RegistrationActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.fictivestudios.basinboatlighting.utils.Titlebar
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    </com.fictivestudios.basinboatlighting.utils.Titlebar>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_registration"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titlebar"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_registration">
+    </androidx.fragment.app.FragmentContainerView>
+
+    </RelativeLayout>
+
+
+</layout>

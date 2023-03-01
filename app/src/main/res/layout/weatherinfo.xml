@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_img">
+
+        <RelativeLayout
+            android:id="@+id/relhome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/backwether"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
+                android:src="@drawable/back"></ImageView>
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:src="@drawable/small_logo"></ImageView>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_450sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:elevation="@dimen/_10sdp"
+            app:cardBackgroundColor="@color/whiteblur"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+           >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bluethothimgid"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:src="@drawable/wheather_large_icon"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/cTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="33C"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/bluethothimgid">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/cdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="323,Friday,September"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/cTemp">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/cdate"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/blur_bg"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sunset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Sunset"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view1">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sunsetval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="7Am"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view1">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/sunset"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sunrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Sunrise"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view2">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/sunriseval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="7Am"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view2">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/sunrise"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/moonset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Moonset"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view3">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/moonsetval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="7Am"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view3">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/moonset"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/moonrise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Moonrise"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view4">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/moonriseval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="7Am"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view4">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/moonrise"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/humidity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Humidity"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view5">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/humidityval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="54%"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view5">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/humidity"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/windspeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="WindSpeed"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view6">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/windspeedval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="54.9 m\s"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view6">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+                <View
+                    android:id="@+id/view10"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/windspeed"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/winddegree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="WindDegree"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view10">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/winddegreeval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="360"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view10">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+                <View
+                    android:id="@+id/view7"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/winddegree"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/wforcaste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Weather Forecast"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view7">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/wforcasteval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Description"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view7">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/wforcaste"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mintemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Minimum Temperature"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view8">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/mintempval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="33C"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view8">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+                <View
+                    android:id="@+id/view9"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    app:layout_constraintTop_toBottomOf="@id/mintemp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:background="@color/white"
+                    android:layout_margin="@dimen/_5sdp"
+                    ></View>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/maxtemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="Maximum Temperature"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view9">
+
+
+                </androidx.appcompat.widget.AppCompatTextView>
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/maxtempval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:text="33C"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/view9">
+                </androidx.appcompat.widget.AppCompatTextView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

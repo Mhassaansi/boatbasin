@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_module"
+    app:startDestination="@id/connectblueThooth">
+
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.aboutus.AboutUs"
+        android:label="AboutUs" />
+    <fragment
+        android:id="@+id/privacyPolicy"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.privacypolicy.PrivacyPolicy"
+        android:label="PrivacyPolicy" />
+    <fragment
+        android:id="@+id/updatePassword"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.updatepassword.UpdatePassword"
+        android:label="UpdatePassword" />
+    <fragment
+        android:id="@+id/termsCondition"
+        android:name="com.fictivestudios.basinboatlighting.ui.registration.termscondition.TermsCondition"
+        android:label="TermsCondition" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_aboutUs"
+            app:destination="@id/aboutUs" />
+        <action
+            android:id="@+id/action_homeFragment_to_connectblueThooth"
+            app:destination="@id/connectblueThooth" />
+        <action
+            android:id="@+id/action_homeFragment_to_weatherScreen"
+            app:destination="@id/weatherScreen" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.settings.Settings"
+        android:label="Settings" >
+        <action
+            android:id="@+id/action_settings_to_updatePassword"
+            app:destination="@id/updatePassword" />
+        <action
+            android:id="@+id/action_settings_to_privacyPolicy"
+            app:destination="@id/privacyPolicy" />
+        <action
+            android:id="@+id/action_settings_to_termsCondition"
+            app:destination="@id/termsCondition" />
+        <action
+            android:id="@+id/action_settings_to_aboutUs"
+            app:destination="@id/aboutUs" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfile"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.editprofile.EditProfile"
+        android:label="EditProfile">
+        <argument
+            android:name="profileData"
+            app:argType="com.fictivestudios.basinboatlighting.models.profile.ProfileMain" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.profile.Profile"
+        android:label="Profile" >
+        <action
+            android:id="@+id/action_profile_to_editProfile"
+            app:destination="@id/editProfile" />
+    </fragment>
+    <dialog
+        android:id="@+id/exitDialog"
+        android:name="com.fictivestudios.basinboatlighting.ui.dialogs.ExitDialog"
+        android:label="ExitDialog" />
+    <fragment
+        android:id="@+id/connectblueThooth"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.cbluethooth.ConnectblueThooth"
+        android:label="ConnectblueThooth" >
+        <action
+            android:id="@+id/action_connectblueThooth_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherScreen"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.weather.WeatherScreen"
+        android:label="WeatherScreen" >
+        <action
+            android:id="@+id/action_weatherScreen_to_weatherDescription"
+            app:destination="@id/weatherDescription" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherDescription"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.weather.WeatherDescription"
+        android:label="WeatherDescription">
+
+    <argument
+        android:name="dt"
+        app:argType="string"
+        android:defaultValue="dt"
+        />
+    <argument
+        android:name="sunrise"
+        app:argType="string"
+        android:defaultValue="sunrise"
+        />
+    <argument
+        android:name="sunset"
+        app:argType="string"
+        android:defaultValue="sunset"
+        />
+    <argument
+        android:name="moonrise"
+        app:argType="string"
+        android:defaultValue="moonrise"
+        />
+    <argument
+        android:name="moonset"
+        app:argType="string"
+        android:defaultValue="moonset"
+        />
+    <argument
+        android:name="humidity"
+        app:argType="string"
+        android:defaultValue="humidity"
+        />
+    <argument
+        android:name="windspeed"
+        app:argType="string"
+        android:defaultValue="windspeed"
+        />
+        <argument
+            android:name="winddegree"
+            app:argType="string"
+            android:defaultValue="winddegree"
+            />
+
+    <argument
+        android:name="min"
+        app:argType="integer"
+        android:defaultValue="0"
+        />
+    <argument
+        android:name="max"
+        app:argType="integer"
+        android:defaultValue="0"
+        />
+        <argument
+            android:name="desp"
+            app:argType="string"
+            android:defaultValue="desp"
+            />
+        <argument
+            android:name="cTemp"
+            app:argType="string"
+            android:defaultValue="30"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/inAppPurchaseFragment"
+        android:name="com.fictivestudios.basinboatlighting.ui.home.inapppruchase.InAppPurchaseFragment"
+        android:label="InAppPurchaseFragment" >
+        <action
+            android:id="@+id/action_inAppPurchaseFragment_to_connectblueThooth2"
+            app:destination="@id/connectblueThooth" />
+    </fragment>
+</navigation>
